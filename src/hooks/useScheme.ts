@@ -25,6 +25,7 @@ const useScheme = (): [SchemeType, SetScheme] => {
     queryClient.setQueryData(queryKey.scheme(), scheme)
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (!window) return
 
