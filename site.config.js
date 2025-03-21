@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "주현우",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "./public/blog_main.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
     bio: "이벤트에 미친 사람",
     email: "jhw102258@gmail.com",
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "hwjoo-log",
-    description: "welcome to hwjoo-log!",
+    title: "hwjoo",
+    description: "welcome to hwjoo!",
     scheme: "light", // 'light' | 'dark' | 'system'
   },
 
